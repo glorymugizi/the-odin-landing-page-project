@@ -4,6 +4,10 @@
   box-sizing: border-box;
   /* border: 1px solid black; */
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 header,
 footer {
   background-color: #1f2937;
