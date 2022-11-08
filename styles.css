@@ -20,6 +20,7 @@ footer {
   justify-content: space-between;
   margin: 0 150px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .logo {
   /*navigation container item */
@@ -111,7 +112,7 @@ img {
   align-items: center;
 }
 .quote {
-  width: 350px;
+  width: 28%;
   overflow: hidden;
 }
 .call-to-action {
@@ -122,14 +123,15 @@ img {
 }
 .sub-section {
   display: flex;
-  width: 600px;
-  height: 100px;
+  width: 60%;
+  height: 6rem;
   background-color: #3882f6;
   justify-content: center;
   align-items: center;
   gap: 20px;
   border: 1px solid #3882f6;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 .action {
   display: flex;
