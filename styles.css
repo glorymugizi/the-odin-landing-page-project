@@ -46,9 +46,9 @@ ul {
   justify-content: space-between;
 }
 .left {
-  width: 350px;
+  width: 50%;
   color: #f9faf8;
-  font-size: 48px;
+  font-size: 3rem;
 }
 .right {
   display: flex;
