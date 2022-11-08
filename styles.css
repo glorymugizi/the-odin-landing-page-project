@@ -4,8 +4,10 @@
   box-sizing: border-box;
   /* border: 1px solid black; */
 }
-header {
+header,
+footer {
   background-color: #1f2937;
+  overflow: hidden;
 }
 
 .nav-bar {
@@ -35,14 +37,13 @@ ul {
 }
 .main {
   display: flex;
-  margin: 100px 150px;
+  margin: 90px 150px 20px 150px;
   justify-content: space-between;
 }
 .left {
   width: 350px;
   color: #f9faf8;
   font-size: 48px;
-  /* font-weight: bolder; */
 }
 .right {
   display: flex;
@@ -50,11 +51,15 @@ ul {
   background-color: #d3d30b;
   justify-content: center;
   align-items: center;
-  margin: 40px;
 }
-.subtex {
+.right img {
+  width: 500px;
+  height: 300px;
+}
+.subtext {
   font-size: 12px;
   margin: 8px 0;
+  width: 250px;
 }
 button {
   background-color: #3882f6;
@@ -63,5 +68,78 @@ button {
   width: 150px;
   border: 1px solid #3882f6;
   border-radius: 15px;
-  margin-bottom: 40px;
+}
+.card-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+.card-item {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 200px;
+  height: 160px;
+}
+.text {
+  text-align: center;
+  margin-top: 6px;
+}
+.block-quote {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 200px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  width: 350px;
+  overflow: hidden;
+}
+.call-to-action {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.sub-section {
+  display: flex;
+  width: 600px;
+  height: 100px;
+  background-color: #3882f6;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #3882f6;
+  border-radius: 8px;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.btn-2 {
+  border: 1px solid #fff;
+}
+footer {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.footnote {
+  padding: 20px;
 }
